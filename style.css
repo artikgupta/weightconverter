@@ -1,0 +1,27 @@
+form {
+  background-color: purple;
+
+  color: white;
+  width: 30rem;
+  height: 15rem;
+  margin: 5rem auto 5rem;
+  padding: 2rem;
+}
+label {
+  width: 5rem;
+}
+
+.error {
+  color: red;
+}
+
+.no-error {
+  color: rgb(0, 255, 0);
+}
+@media only screen and (max-width: 600px) {
+  form {
+    width: 25rem;
+    font-size: 0.85rem;
+    line-height: 2rem;
+  }
+}
